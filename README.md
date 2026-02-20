@@ -27,3 +27,12 @@ This project implements an automated, end-to-end ETL pipeline that automates the
 
 <img width="1457" height="721" alt="workflow" src="https://github.com/user-attachments/assets/3392afc5-3737-41f3-818c-7fc4d78ad537" />
 
+
+## Running the project
+
+```bash
+docker-compose up
+```
+Access:
+- **Airflow :** `http://localhost:8081`
+- **Superset :** `http://localhost:8088`
