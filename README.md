@@ -24,7 +24,7 @@ This project implements an automated, end-to-end ETL pipeline that automates the
 
 5. **Visualization:** Using `Apache Superset`, the stored data is transformed into interactive charts. Users can track weather patterns, compare regional climates, and visualize environmental changes over time.
 
-<img width="1457" height="721" alt="workflow" src="https://github.com/user-attachments/assets/3392afc5-3737-41f3-818c-7fc4d78ad537" />
+<img width="1457" height="721" alt="workflow" src="images/workflow.png" />
 
 ## Running the project
 
@@ -35,6 +35,12 @@ docker-compose up
 - **Airflow :** `http://localhost:8081`
 - **Superset :** `http://localhost:8088`
 
+## Sample DAG workflow and Dashboard
 
-### References
+<img width="1918" height="1076" alt="DAG" src="images/DAG.png" />
+
+<img width="1918" height="1027" alt="Superset_dashboard" src="images/superset_dashboard.png" />
+
+
+## References
 Thanks to the creator that make great tutorial [Youtube](https://www.youtube.com/watch?v=vMgFadPxOLk)
