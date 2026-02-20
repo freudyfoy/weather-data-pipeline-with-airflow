@@ -3,19 +3,13 @@ This project implements an automated, end-to-end ETL pipeline that automates the
 
 ## Tech stack
 
-OS: WSL (Ubuntu 24.04)
-
-External Weather API: [Weatherstack](https://weatherstack.com/)
-
-Orchestration: Apache Airflow
-
-Database: PostgreSQL
-
-Containerization: Docker
-
-Transformation: dbt
-
-Visualization: Apache Superset
+- OS: WSL (Ubuntu 24.04)
+- External Weather API: [Weatherstack](https://weatherstack.com/)
+- Orchestration: Apache Airflow
+- Database: PostgreSQL
+- Containerization: Docker
+- Transformation: dbt
+- Visualization: Apache Superset
 
 
 ## The ETL Pipeline Workflow
@@ -29,3 +23,4 @@ Visualization: Apache Superset
 4. **Storage:** Cleaned data is loaded into a `PostgreSQL` schema.
 
 5. **Visualization:** Using `Apache Superset`, the stored data is transformed into interactive charts. Users can track weather patterns, compare regional climates, and visualize environmental changes over time.
+
