@@ -3,13 +3,13 @@ This project implements an automated, end-to-end ETL pipeline that automates the
 
 ## Tech stack
 
-- OS: WSL (Ubuntu 24.04)
-- External Weather API: [Weatherstack](https://weatherstack.com/)
-- Orchestration: Apache Airflow
-- Database: PostgreSQL
-- Containerization: Docker
-- Transformation: dbt
-- Visualization: Apache Superset
+- **OS:** WSL (Ubuntu 24.04)
+- **External Weather API:** [Weatherstack](https://weatherstack.com/)
+- **Orchestration:** Apache Airflow
+- **Database:** PostgreSQL
+- **Containerization:** Docker
+- **Transformation:** dbt
+- **Visualization:** Apache Superset
 
 
 ## The ETL Pipeline Workflow
@@ -33,6 +33,6 @@ This project implements an automated, end-to-end ETL pipeline that automates the
 ```bash
 docker-compose up
 ```
-Access:
+**Access:**
 - **Airflow :** `http://localhost:8081`
 - **Superset :** `http://localhost:8088`
