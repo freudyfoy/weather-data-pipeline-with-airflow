@@ -39,7 +39,7 @@ docker-compose up
 
 <img width="1918" height="1076" alt="DAG" src="images/DAG.png" />
 
-<img width="1918" height="1027" alt="Superset_dashboard" src="images/superset_dashboard.png" />
+<img width="1918" height="1027" alt="Superset_dashboard" src="images/Superset_dashboard.png" />
 
 
 ## References
